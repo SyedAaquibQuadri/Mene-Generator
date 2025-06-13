@@ -1,12 +1,38 @@
-# React + Vite
+# 🖼 Meme Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive Meme Generator built with **React**. Users can fetch random meme images, add custom top and bottom text, and download their creations directly!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🎲 Random meme image fetching from [Imgflip API](https://api.imgflip.com/get_memes)  
+- 📝 Customizable top and bottom text fields  
+- 🖌 Canvas rendering of meme with text overlay  
+- ⬇️ One-click meme download feature  
+- 💅 Responsive and visually appealing design  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **React** (Hooks: `useState`, `useEffect`, `useRef`)
+- **HTML5 Canvas** for image rendering & download
+- **CSS3** for responsive UI and smooth effects
+- **Imgflip API** for meme templates
+
+---
+
+## 📸 Preview
+
+![Meme Generator Preview](./src/assets/Troll-Face.png)
+
+---
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/yourusername/meme-generator.git
+cd meme-generator
+npm install
+npm run dev  # or npm start depending on your setup
